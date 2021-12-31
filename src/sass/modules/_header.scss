@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+
+    h1{
+        background: -webkit-linear-gradient(silver, black,silver,black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: shippori;
+      
+        
+    }
+}

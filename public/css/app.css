@@ -1,0 +1,101 @@
+header {
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+}
+header h1 {
+  background: -webkit-linear-gradient(silver, black, silver, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: shippori;
+}
+
+body {
+  background: -webkit-linear-gradient(black, gold, black, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  background: -webkit-linear-gradient(silver, black, silver, gold);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: shippori;
+  text-align: center;
+}
+
+input {
+  width: 5em;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1% 15%;
+}
+#content button {
+  padding: 0.7% 1%;
+  margin: 0.5%;
+}
+#content #color {
+  text-align: center;
+}
+#content #borderLine {
+  display: flex;
+  justify-content: center;
+}
+#content #topLine {
+  display: flex;
+  justify-content: center;
+}
+#content #borderSize {
+  display: flex;
+  justify-content: center;
+}
+#content #borderRadius {
+  display: flex;
+  justify-content: center;
+}
+
+footer .resultat {
+  height: 20vh;
+  width: 15%;
+  margin: 1% auto;
+  transition: 1s;
+}
+
+@font-face {
+  font-family: "manrope";
+  src: url(../../public/fonts/Manrope-Medium.ttf);
+}
+@font-face {
+  font-family: "shippori";
+  src: url(../../public/fonts/ShipporiAntique-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-r";
+  src: url(../../public/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-sb";
+  src: url(../../public/fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "poppins-b";
+  src: url(../../public/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "dms-r";
+  src: url(../../public/fonts/DMSans-MediumItalic.ttf);
+}
+@font-face {
+  font-family: "poppins-bl";
+  src: url(../../public/fonts/Poppins-Black.ttf);
+}
+@font-face {
+  font-family: "poppins-l";
+  src: url(../../public/fonts/Poppins-ExtraLight.ttf);
+}
+
+/*# sourceMappingURL=app.css.map */

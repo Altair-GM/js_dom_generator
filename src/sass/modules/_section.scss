@@ -1,0 +1,59 @@
+
+
+body{
+    background: -webkit-linear-gradient(black, gold,black,black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+h2{
+    background: -webkit-linear-gradient(silver, black,silver,gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: shippori;
+    text-align: center;
+}
+input{
+    width: 5em;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    padding: 1% 15%;
+// background-color: red;
+button{
+    padding: 0.7% 1%;
+    margin: 0.5%;
+}
+    #color{
+        
+        
+        text-align: center;
+
+       
+        
+    }
+    #borderLine{
+      
+    display: flex;
+    justify-content: center;
+    }
+    #topLine{
+        display: flex;
+    justify-content: center;
+
+
+    }
+    #borderSize{
+        display: flex;justify-content: center;
+    }
+    #borderRadius{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+}
